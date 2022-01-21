@@ -1,0 +1,39 @@
+body {
+    font-family: "Lucida Grande", sans-serif;
+    background-color: lightcyan;
+}
+
+header {
+    background-image: url(./images/banner.jpeg.webp);
+    background-size: cover;
+    height: 20em;
+}
+nav {
+    display: inline-flex;
+}
+
+nav ul li {
+    display: inline-flex;
+    background-color: darkcyan;
+    padding: 1em;
+    opacity: 0.8;
+ 
+}
+nav ul li:hover {
+    background-color: cadetblue;
+}
+
+h1 {
+    display: inline-block;
+    color: rgb(166, 252, 252);
+    background-color: darkcyan;
+    padding: 0.5em;
+    margin-left: 1em;
+    opacity: 0.85;
+}
+
+a {
+    color: rgb(166, 252, 252);
+    text-decoration: none;
+
+}
