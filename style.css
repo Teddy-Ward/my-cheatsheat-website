@@ -32,8 +32,53 @@ h1 {
     opacity: 0.85;
 }
 
-a {
+header a {
     color: rgb(166, 252, 252);
     text-decoration: none;
+    }
+main a {
+    color: rgb(166, 252, 252);
+    text-decoration: none;
+}
 
+h2, h5 {
+    background-color: darkcyan;
+    padding: 0.8em;
+    color: rgb(166, 252, 252);
+    opacity: 0.85;
+}
+
+h3 {
+    background-color: cadetblue;
+    padding: 0.6em
+}
+
+h5 {
+    text-align: center;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    background-color: lightgray;
+    border-collapse: collapse;
+}
+
+td, th, table {
+    border: 1px solid cadetblue;
+}
+
+pre {
+    background-color:rgb(211, 238, 238);
+    padding: 1em;
+    line-height: 1.5em;
+}
+
+footer h6 {
+    text-align: right;
+    background-color: darkcyan;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    opacity: 0.85;
 }
